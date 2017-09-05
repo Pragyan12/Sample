@@ -5,7 +5,7 @@ public class PrintAndRemoveName{
 		System.out.println("Enter a name:");
 		String s=scn.nextLine();
 		System.out.println(s.length());
-		s = s.substring(0, s.length()-3);
+		s = s.substring(0, s.length()-2);
 		System.out.println(s);
 		System.out.println(s.length());
 	}
